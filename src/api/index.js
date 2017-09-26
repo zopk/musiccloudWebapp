@@ -19,4 +19,7 @@ export default {
   search (words) {
     return _baseUrl2 + '?type=search&s=' + words;
   }
+  gerdata(){
+    alert('fox')
+}
 };
